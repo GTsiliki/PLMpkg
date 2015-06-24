@@ -1,0 +1,10 @@
+* installing *source* package ‘PLMplusPMMLpkg’ ...
+** R
+** data
+** preparing package for lazy loading
+** help
+Warning: bad markup (extra space?) at lm.funct.Rd:25:27
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (PLMplusPMMLpkg)

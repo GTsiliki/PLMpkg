@@ -1,0 +1,12 @@
+PLMplusPMMLpkg-package
+                        Reads in json files, create/predict lm, save in
+                        serialized and pmml format
+dat1                    A sample data object
+dat1i                   A list including names of independent variables
+                        in model dat1m and predicted feature's name
+dat1m                   Serialized lm model file
+dat1p                   A sample data object
+lm.funct                Linear model
+pred.funct              lm prediction
+read.in.json            Read in function for json files
+read.in.json.for.pred   Read in function for json files for prediction
