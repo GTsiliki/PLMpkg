@@ -20,7 +20,7 @@ function(dataset,rawModel,additionalInfo){
         #colnames(dat1.t)<- dat1.names # give real names to variables
         
         dat1.m<- rawModel
-        dat1.m<- base64_dec(dat1.m)#base64Decode(dat1.m,'raw')
+        dat1.m<- base64Decode(dat1.m,'raw')
         dat1.model<- unserialize(dat1.m)
         
         dat1.indi.rev<- which(additionalInfo$indepFeatures[,2] %in% colnames(dat1.t))

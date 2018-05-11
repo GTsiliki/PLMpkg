@@ -1,8 +1,8 @@
 Package: PLMplusPMMLpkg
 Type: Package
 Title: Read json files, create/predict lm, save in rds,pmml
-Version: 2.0
-Date: 2018-05-11
+Version: 1.0
+Date: 2015-03-12
 Author: Georgia Tsiliki
 Maintainer: Georgia Tsiliki <gtsiliki@central.ntua.gr>
 Depends: RCurl, pmml, jsonlite

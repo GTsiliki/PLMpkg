@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+import(RCurl)
+import(pmml)
+import(jsonlite)
